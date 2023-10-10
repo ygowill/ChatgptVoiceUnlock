@@ -19,6 +19,10 @@ Before you get started, make sure you have the following:
 5. Go back to settings page and tap the "Rewrite Rule" button and update rules
 6. Force quit chatgpt app and reopen it. Now you should be able to see Voice Conversations switch in Settings -> New Features
 
+## Disclaimer
+
+This project is provided for educational and experimental purposes only. Use it responsibly and in compliance with OpenAI's terms of service.
+
 ## Credits
 
 BackwardsBinary for the original inspiration and Reddit post.
