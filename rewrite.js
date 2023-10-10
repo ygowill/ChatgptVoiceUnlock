@@ -1,7 +1,9 @@
 // JS script for quantumult x to rewrite chatgpt request, enable voice to voice feature
 
 var body = $response.body;
-console.log($response)
+console.log("===============");
+console.log($response);
+console.log("===============");
 if ($response.status === 200) {
     var obj = JSON.parse(body);
     if ("feature_gates" in obj) {
