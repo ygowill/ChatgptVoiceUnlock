@@ -6,8 +6,8 @@ if ($response.status === 200) {
         "plugins": true,
         "breeze": true,
         "browsing": true,
-        "dalle": false,
-        "sunshine": false,
+        "dalle": true,
+        "sunshine": true,
         "code_interpreter": true
     };
 
