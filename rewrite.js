@@ -12,13 +12,13 @@ if ($response.status === 200) {
     }
 
     // try unlock vision
-    if ("layer_configs" in obj) {
-        for (var key in obj["layer_configs"]) {
-            if (("group_name" in obj["layer_configs"][key]) && (obj["layer_configs"][key]["group_name"] === "control, 626 no vision")) {
-                obj["layer_configs"][key]["value"]["use_low_latency_model"] = true;
-            }
-        }
-    }
+    // if ("layer_configs" in obj) {
+    //     for (var key in obj["layer_configs"]) {
+    //         if (("group_name" in obj["layer_configs"][key]) && (obj["layer_configs"][key]["group_name"] === "control, 626 no vision")) {
+    //             obj["layer_configs"][key]["value"]["use_low_latency_model"] = true;
+    //         }
+    //     }
+    // }
 
     body = JSON.stringify(obj);
 }
